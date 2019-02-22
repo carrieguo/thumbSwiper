@@ -1,0 +1,47 @@
+*{margin:0;padding:0;list-style: none;font-family: "微软雅黑";}
+a{text-decoration: none;}
+/*老师风采*/
+.lsfc{
+    margin-top: 40px;
+    background: #f6f6f6;
+}
+.lsfc .bt{
+    padding-top: 40px;
+    text-align: center;
+}
+.lsfc .bt h1{
+    font-size: 30px;
+    color: #232323;
+    font-weight: bold;
+}
+.lsfc .bt p{
+    color: #555555;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.lsfc .bt .xian{
+    width: 50px;
+    height: 3px;
+    background: #dd0000;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.index_zhuanjia{ width:1200px;padding-bottom: 40px; overflow:hidden;margin:40px auto 0 auto;}
+.index_zhuanjia_pic{ width:921px; height:483px; overflow:hidden; float:left;position:relative;}
+.index_zhuanjia_pic ul{height:377px;position:absolute; left:0;}
+.index_zhuanjia_pic li{width:921px; height:483px; overflow:hidden;position:relative;float:left;}
+
+.index_zhuanjia_left_inc{width:42px;height:42px;position:absolute;left:10px;top:195px;cursor:pointer;background:url(../images/left.png) left top no-repeat;z-index:9;}
+.index_zhuanjia_right_inc{ width:42px; height:42px; position:absolute;right:10px;top:195px; cursor:pointer;background:url(../images/right.png) left top no-repeat; z-index:9;}
+.index_zhuanjia_list{ width:260px;height:483px; overflow:hidden; float:right;}
+.index_zhuanjia_lists{width:260px; height:428px; overflow:hidden;position:relative;}
+.index_zhuanjia_lists ul{ width:260px; height:428px;position:absolute;overflow:hidden;}
+.index_zhuanjia_lists ul li{ width:260px; height:98px; padding-bottom:9px;position:relative; }
+.index_zhuanjia_lists ul li.on dd img{ width:96px; height:96px; border:1px #dd0000 solid;}
+.index_zhuanjia_lists ul li dd{ width:98px; height:98px; overflow:hidden; float:left;}
+.index_zhuanjia_lists ul li dd img{ width:96px; height:96px; border:1px #e8e8e8 solid;}
+.index_zhuanjia_lists ul li dt{ width:152px; height:26px; overflow:hidden; float:right; font-size:18px; padding-top:23px;}
+.index_zhuanjia_lists ul li dl{ width:152px; height:26px; overflow:hidden; float:right; color:#7a7a7a;}
+.index_zhuanjia_pre{ width:260px; height:23px; overflow:hidden; cursor:pointer;background:url(../images/index_zhuanjia_pre.png) no-repeat left top;}
+.index_zhuanjia_next{ width:260px; height:23px; overflow:hidden; cursor:pointer;background:url(../images/index_zhuanjia_next.png) no-repeat left top;}
